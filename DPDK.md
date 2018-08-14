@@ -11,7 +11,7 @@ dpdk-devbind --bind=igb_uio 00:08.0
 ```
 ovs-vsctl set Open_vSwitch . other_config:dpdk-init=true other_config:dpdk-socket-mem=128
 ```
-### CRATE DPDK BRIDGE
+### CREATE DPDK BRIDGE
 ```bash
 ovs-vsctl add-br br0 -- set bridge br0 datapath_type=netdev
 
