@@ -1,7 +1,7 @@
 Snapshot
 ------------
 
-###Command: vagrant snapshot
+### Command: vagrant snapshot
 
 This is the command used to manage snapshots with the guest machine. Snapshots record a point-in-time state of a guest machine. You can then quickly restore to this environment. This lets you experiment and try things and quickly restore back to a previous state.
 
