@@ -1,5 +1,7 @@
 Snapshot
-Command: vagrant snapshot
+------------
+
+###Command: vagrant snapshot
 
 This is the command used to manage snapshots with the guest machine. Snapshots record a point-in-time state of a guest machine. You can then quickly restore to this environment. This lets you experiment and try things and quickly restore back to a previous state.
 
@@ -7,14 +9,18 @@ Snapshotting is not supported by every provider. If it is not supported, Vagrant
 
 The main functionality of this command is exposed via even more subcommands:
 
-push
+```push
 pop
 save
 restore
 list
 delete
-Snapshot Push
-Command: vagrant snapshot push
+Snapshot Push```
+
+###Command: 
+```
+vagrant snapshot push
+```
 
 This takes a snapshot and pushes it onto the snapshot stack.
 
